@@ -1,5 +1,7 @@
 <?php
 
+//確認
+
 namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\File;
