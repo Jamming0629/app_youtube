@@ -33,5 +33,10 @@ return [
     'youtube' => [
         'api_key' => env('API_KEY'),
         'search_endpoint' => env('SEARCH_ENDPOINT')
+    ],
+    'google' => [
+    'client_id' => env('GOOGLE_CLIENT_ID'),
+    'client_secret' => env('GOOGLE_CLIENT_SECRET'),
+    'redirect' => env('GOOGLE_URL'),
     ]
 ];
