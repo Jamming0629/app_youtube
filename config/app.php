@@ -161,12 +161,9 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
-        
-
         /*
          * Package Service Providers...
          */
-
         /*
          * Application Service Providers...
          */
@@ -176,7 +173,6 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         Laravel\Socialite\SocialiteServiceProvider::class, // 'providers' 内に追記
-
     ],
 
     /*
@@ -229,7 +225,6 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'Socialite' => Laravel\Socialite\Facades\Socialite::class, // 'aliases' 内に追記
-
     ],
 
 ];

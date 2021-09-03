@@ -40,6 +40,7 @@ class LoginController extends Controller
         // Auth::login($user, true);
         return redirect('/index');
     }
+}
     //public function handleGoogleCallback()
     // {
     //     $gUser = Socialite::driver('google')->stateless()->user();
@@ -63,4 +64,4 @@ class LoginController extends Controller
     //     ]);
     //     return $user;
     // }
-}
+
