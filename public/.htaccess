@@ -11,10 +11,10 @@
     # Redirect Trailing Slashes If Not A Folder...
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_URI} (.+)/$
-    RewriteRule ^$ laravel-youtube/public/ [L]
+    RewriteRule ^$ app_youtube/public/ [L]
     
     # Send Requests To Front Controller...
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteRule ^(.*)$ laravel-youtube/public/$1 [L]
+    RewriteRule ^(.*)$ app_youtube/public/$1 [L]
 </IfModule>
