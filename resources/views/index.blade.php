@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('content')
-    <div class="container mt-4">
+    <div class="container mt-4 colxs-12 col-md-6">
         <div class="row">
             @foreach($videoLists->items as $key => $item)
                 <div class="col-4">

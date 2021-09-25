@@ -13,7 +13,7 @@
         .top-bar {
             background-color: #343a40;
         }
-        .navbar-collapse {
+        *{
             font-family: 'Oswald', sans-serif;
         }
         .nav-link{
