@@ -21,7 +21,7 @@ Route::get('/index', 'App\Http\Controllers\YouTubeController@index')->name('inde
 //Route::get('/', 'App\Http\Controllers\YouTubeController@index')->name('index');
 Route::get('/results', 'App\Http\Controllers\YouTubeController@results')->name('results');
 Route::get('/watch/{id}', 'App\Http\Controllers\YouTubeController@watch')->name('watch');
-Route::get('/', 'App\Http\Controllers\Auth\LoginController@redirectToGoogle');
+//Route::get('/', 'App\Http\Controllers\Auth\LoginController@redirectToGoogle');
 
 //Route::post('/line/callback',    'App\Http\Controllers\LineApiController@postWebhook');
 // line webhook受取用
@@ -32,4 +32,4 @@ Route::get('/line/message/send', 'App\Http\Controllers\LineApiController@sendMes
 //Route::get('/login/google', 'App\Http\Controllers\Auth\LoginController@redirectToGoogle');
 //Route::get('/login/google/callback', 'App\Http\Controllers\Auth\LoginController@handleGoogleCallback');
 //Route::get('/login/google/callback', 'App\Http\Controllers\YouTubeController@index')->name('index');
-Route::get('/login/google/callback', 'App\Http\Controllers\Auth\LoginController@authGoogleCallback');
+//Route::get('/login/google/callback', 'App\Http\Controllers\Auth\LoginController@authGoogleCallback');
