@@ -15,7 +15,7 @@ class YouTubeController extends Controller
         } else {
             $videoLists = $this->_videoLists('laravel chat');
         }
-        return view('Index', compact('videoLists'));
+        return view('index', compact('videoLists'));
     }
 
     public function results(Request $request)
