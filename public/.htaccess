@@ -5,6 +5,9 @@
 
     RewriteEngine On
     RewriteBase /
+    RewriteRule ^$ google/public/ [L]
+    RewriteRule ^(.*)$ google/public/$1 [L]
+
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
  
@@ -15,5 +18,4 @@
     # Send Requests To Front Controller...
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteRule ^ https://vast-brushlands-90603.herokuapp.com/login/google/callback [L]
 </IfModule>
