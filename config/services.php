@@ -37,6 +37,6 @@ return [
     'google' => [
     'client_id' => env('GOOGLE_CLIENT_ID'),
     'client_secret' => env('GOOGLE_CLIENT_SECRET'),
-    'redirect' => env('GOOGLE_URL'),
+    'redirect' => "https://arcane-crag-99464.herokuapp.com/login/google/callback",
     ]
 ];
