@@ -123,6 +123,7 @@ return [
 
     'cipher' => 'AES-256-CBC',
     'debug' => env('APP_DEBUG', true),
+    'key' => env('APP_KEY', 'SomeRandomStringSomeRandomString'),
 
     /*
     |--------------------------------------------------------------------------
