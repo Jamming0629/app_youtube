@@ -15,14 +15,14 @@ class YouTubeController extends Controller
         } else {
             $videoLists = $this->_videoLists('laravel chat');
         }
-        return view('/index', compact('videoLists'));
+        return view('index', compact('videoLists'));
     }
 
     public function results(Request $request)
     {
         session(['search_query' => $request->search_query]);
         $videoLists = $this->_videoLists($request->search_query);
-        return view('/results', compact('videoLists'));
+        return view('results', compact('videoLists'));
     }
 
     public function watch($id)
@@ -33,7 +33,7 @@ class YouTubeController extends Controller
         } else {
             $videoLists = $this->_videoLists('laravel chat');
         }
-        return view('/watch', compact('singleVideo', 'videoLists'));
+        return view('watch', compact('singleVideo', 'videoLists'));
     }
 
     // We will get search result here
