@@ -38,7 +38,7 @@ class LoginController extends Controller
         //     'google_id' => $googleUser->getId()
         // ]);
         // Auth::login($user, true);
-        return redirect('/index');
+        return redirect('index');
     }
 }
     //public function handleGoogleCallback()

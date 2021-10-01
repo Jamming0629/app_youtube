@@ -57,7 +57,7 @@ class LineApiController extends Controller
                     break;
             }
     }
-               return redirect('/index');
+               return redirect('index');
     }
 
     // メッセージ送信用
@@ -124,7 +124,7 @@ class LineApiController extends Controller
                 break;
         }
     }
-       return redirect('/index');
+       return redirect('index');
     }
     
     /*public function postWebhook(Request $request) {
