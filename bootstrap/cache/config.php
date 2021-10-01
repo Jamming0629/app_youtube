@@ -4,7 +4,7 @@
     'name' => 'Laravel',
     'env' => 'local',
     'debug' => true,
-    'url' => 'https://1f4b8700a1494ced869b10425f67d6d0.vfs.cloud9.ap-northeast-1.amazonaws.com',
+    'url' => 'https://vast-brushlands-90603.herokuapp.com',
     'asset_url' => 'https://vast-brushlands-90603.herokuapp.com',
     'timezone' => 'UTC',
     'locale' => 'en',
