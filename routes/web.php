@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/', function () {
-    return view('welcome');
+    return 'welcome';
 });
 
 Route::get('/index', 'App\Http\Controllers\YouTubeController@index')->name('index');
